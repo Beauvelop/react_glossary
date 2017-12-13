@@ -1,9 +1,6 @@
 var React = require('react'); 
 var ReactDOM = require('react-dom');
-// var Search = require('./components/Search.jsx') // is .jsx necessary?
-
 var words = require('./wordsDB'); // ok
-
 
 class Result extends React.Component {  /***********Result**************/
     
