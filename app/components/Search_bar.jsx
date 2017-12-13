@@ -1,6 +1,6 @@
 var React = require('react')
 
-class SearchBar extends React.Component {    
+class SearchBar extends React.Component { 
     searchBarHandleQuery(evt) {
         this.props.onQuery(evt.target.value)  // establishing props
     }

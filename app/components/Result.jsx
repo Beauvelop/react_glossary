@@ -1,18 +1,20 @@
 var React = require('react')
 
-class Result extends React.Component {
+class Result extends React.Component {  /***********Result**************/
     
-    priceDisplay(input) {
-        return (input/100.00);
-    };
+    arrMap(input) {
+        return input.map(item => item);
+    }
 
     render() {
         return (
             <div className="in-stock">
-                <h2><a href="#">{this.props.words.word}</a></h2>
-                <p>${this.priceDisplay(this.props.words.meaning)}</p>
-                <p>{this.props.words.tag}</p>
-            </div>
+                <h2><a href="#">{this.props.word.word}</a></h2>
+                <p>{this.props.word.meaning}</p>
+                <p>{this.props.word.example}</p>
+                <h6>{this.arrMap(this.props.word.tag)}</h6>
+            </div>    
+
         )
     }
 }
