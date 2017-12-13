@@ -6,3 +6,5 @@
 + babel in 
 + 5 clean components
 + bootstrap
+
+*css loader needed*
