@@ -1,5 +1,10 @@
 
-module.exports = [{
+module.exports = [ {
+  "word": "kludge",
+  "meaning": "a workaround or quick-and-dirty solution that is clumsy, inelegant, inefficient, difficlut to maintain.",
+  "example": "Code that is not modular and verbose can be referred to as kludge.",
+  "tag": ["web", "CS"]
+}, {
   "word": "anti-pattern",
   "meaning": "If we consider that a pattern represents a best practice, an anti-pattern represents a lesson that has been learned. What is wrong, why and how do we fix it. To summarize, an anti-pattern is a bad design that is worthy of documenting",
   "example": "inASentence",
@@ -769,4 +774,14 @@ module.exports = [{
   "meaning": "Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.",
   "example": "The law is a statement regarding the difficulty of accurately estimating the time it will take to complete tasks of substantial complexity.[2] It is often cited by programmers, especially in discussions of techniques to improve productivity, such as The Mythical Man-Month or extreme programming.[3] The recursive nature of the law is a reflection of the widely experienced difficulty of estimating complex tasks despite all best efforts, including knowing that the task is complex",
   "tag": [ "CS"]
-}];
+},{
+  "word": "placeholder",
+  "meaning": "placeholder",
+  "example": "placeholder",
+  "tag": ["placeholder"]
+},{
+  "word": "stanning",
+  "meaning": "The act or behavior of a Fan + Stalker, Obsessed fanboy",
+  "example": "All the attendees of Google I/O were stanning the Pixel 2.0",
+  "tag": ["GRE", "Slang"]
+},];
