@@ -4,6 +4,41 @@ module.exports = [ {
   "meaning": "a workaround or quick-and-dirty solution that is clumsy, inelegant, inefficient, difficlut to maintain.",
   "example": "Code that is not modular and verbose can be referred to as kludge.",
   "tag": ["web", "CS"]
+},{
+  "word": "Ungulate",
+  "meaning": "An ungulate is any of a number of primarily large mammals that are usually hooved.",
+  "example": "Elephants and horses are ungulates.",
+  "tag": ["vocab"]
+},{
+  "word": "attenuated",
+  "meaning": "Weak in force or effect, unnaturally thin.",
+  "example": "The judge found the evidentiary support for that argument rather attenuated.",
+  "tag": ["vocab"]
+},{
+  "word": "confabulated",
+  "meaning": "A term of psychology characterizing a distorted or fabricated memory produced without the intent to deceive.",
+  "example": "While the court relied on his testimony, forensic evidence produced during the trail revealed how confabulated his testimony was.",
+  "tag": ["vocab"]
+},{
+  "word": "bilious",
+  "meaning": "1)Associated with nausea or vomitng. 2)Spiteful or bad-tempered.",
+  "example": "After listening patiently to the bilious remarks of his constituents, the PM turned on his heel and walked out",
+  "tag": ["vocab"]
+},{
+  "word": "Allocution",
+  "meaning": "A formal speech giving advice or warning",
+  "example": "President Eisenhower delivered a televised allocution foretelling the dangers of the military industrial complex",
+  "tag": ["vocab"]
+},{
+  "word": "prototype",
+  "meaning": "An encapsulation of properties that an object links to.",
+  "example": "While numerous methods are built on the prototype of objects that javascript ships with, the author can create his/her own custom methods.",
+  "tag": ["web", "CS"]
+},{
+  "word": "cowboy coding",
+  "meaning": "A derogatory term for undisciplined form of code usually written by a sole developer.",
+  "example": "Cowboy coding is characterized by inefficiency and disgregard of best practices.",
+  "tag": ["web", "CS"]
 }, {
   "word": "anti-pattern",
   "meaning": "If we consider that a pattern represents a best practice, an anti-pattern represents a lesson that has been learned. What is wrong, why and how do we fix it. To summarize, an anti-pattern is a bad design that is worthy of documenting",
@@ -18,7 +53,12 @@ module.exports = [ {
   "word": "albumen",
   "meaning": "Egg white which surrounds the yolk.",
   "example": "Whether it’s Crockford’s protective albumen or the dry and narrow minded confines of computer science classes, doctrine and dogma are the enemies of good JavaScript. The joy of JavaScript is rooted in its lack of rigidity and the infinite possibilities that this allows for. Natural languages hold the same promise.",
-  "tag": ["gre", "web", "CS"]
+  "tag": ["vocab", "web", "CS"]
+}, {
+  "word": "mawkish",
+  "meaning": "Sentimental in a feeble or sickly way.",
+  "example": "She read some speech full of florid, mawkish prose gushing about flowers and all that blooms in Spring.",
+  "tag": ["vocab"]
 }, {
   "word": "isomorphic code",
   "meaning": "definition",
@@ -63,12 +103,12 @@ module.exports = [ {
   "word": "smarm",
   "meaning": "ingratiating behavior.",
   "example": "John's smarm is what turns me off.",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "Selection Bias",
   "meaning": "Selection bias is the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed. It is sometimes referred to as the selection effect.",
   "example": "The selection bias inherent in the data dump from Wikileaks skews perceptions.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "Declarative HTML",
   "meaning": "HTML 5 is behavioral. Each link has an href that says what happens when you click it. Each form has an action that says what happens when you submit it. Select dropdowns open when you click them. Radio buttons and checkboxes toggle when you select them.",
@@ -93,7 +133,7 @@ module.exports = [ {
   "word": "regression analysis",
   "meaning": "In statistical modeling, regression analysis is a statistical process for estimating the relationships among variables.",
   "example": "A line of best fit in a scatter-plot may describe/predict a relationship between two variables (ie education and salary). The 'residual term' is a variable unaccounted for in the regression model (i.e. gender, height, race, etc.)",
-  "tag": ["Web", "CS",  "gre"]
+  "tag": ["Web", "CS",  "vocab"]
 }, {
   "word": "Server",
   "meaning": "a computer.",
@@ -173,92 +213,92 @@ module.exports = [ {
   "word": "expiate",
   "meaning": "atone for (guilt or sin)",
   "example": "their sins must be expiated by sacrifice",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "poleax",
   "meaning": "hit, kill, or knock down with or as if with a poleax, to cause great shock to (someone).",
   "example": "I was poleaxed by this revelation",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "bespoke",
   "meaning": "made to order, customized",
   "example": "this is a bespoke template for users of grunt",
-  "tag": ["gre", "web", "CS"]
+  "tag": ["vocab", "web", "CS"]
 }, {
   "word": "maieutic",
   "meaning": "of or denoting the Socratic mode of inquiry, which aims to bring a person's latent ideas into clear consciousness.",
   "example": "He teaches in a maieutic method whereby the student eventually wakes up to hisown understanding",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "armistice",
   "meaning": "an agreement made by opposing sides in a war to stop fighting for a certain time; a truce.",
   "example": "armistice was declared on June 25th 1945",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "bawdy",
   "meaning": "dealing with sexual matters in a comical way; humorously indecent.",
   "example": "His bawdy humour is not acceptable in an office setting",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "bucolic",
   "meaning": "of or relating to the pleasant aspects of the countryside and country life.",
   "example": "He has shown a preference for bucolic scenery",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "bromide",
   "meaning": "a platitude or trite saying.",
   "example": "He coughed behind the podium as if to choke on hisown bromides",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "confute",
   "meaning": "to prove (a person) to be wrong by argument or proof:",
   "example": "This evidence confutes the claim that the economy is improving",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "evanescence",
   "meaning": "to disappear gradually; vanish; fade away.",
   "example": "The evanescence of the clouds adds mystery to the transition from overcast to clear",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "arbitrage",
   "meaning": "The purchase of securities on one market for immediate resale on another market in order to profit from a price discrepancy.",
   "example": "I'm buying it only to sell it on the principles of arbitrage.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "effervescence",
   "meaning": "to show enthusiasm, excitement, liveliness, etc.",
   "example": "Her lack of effervescence indicates that she wasn't entirely pleased with the result",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "depredation",
   "meaning": "the act of preying upon or plundering; robbery; ravage.",
   "example": "The depredation of the weak and defenseless is the wont of people in power.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "insidious",
   "meaning": "intended to entrap or beguile; stealthily treacherous or deceitful; operating or proceeding in an inconspicuous or seemingly harmless way but actually with grave effect",
   "example": "The campaign to undermine the legitimacy of the polls was so insidious as to render their results moot while it's true purpose remains undetected",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "traduce",
   "meaning": "to speak maliciously and falsely of; slander; defame:",
   "example": "You accuse me of traducing you, when I have done nothing other than list the facts!",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "welter",
   "meaning": "n. a confused mass; a jumble or muddle; v. to roll, toss, writhe about; to be entangled or extensively involved in",
   "example": "Among the welter of seemingly useless data, these three facts are indicative of a significant and remarkable trend",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "proviso",
   "meaning": "stipulation or condition",
   "example": "He agreed to the contract with the proviso that circumstances may prevent him from showing up at the office on time every day",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "anodyne",
   "meaning": "not likely to provoke dissent or offense; inoffensive, often deliberately so.",
   "example": "She delivered an anodyne speech full of empty bromides that left us cold.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "succor",
   "meaning": "help; relief; aid; assistance.",
@@ -268,17 +308,17 @@ module.exports = [ {
   "word": "canard",
   "meaning": "a false or baseless, usually derogatory story, report, or rumor.",
   "example": "Let's just shoot that canard before it poops all over a truer understanding of the case!",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "syncretism",
   "meaning": "the combination of different forms of belief or practice",
   "example": "He has a rather syncretic approach to learning in that he believes in both, a deep focus on one subject, and a broad dabbling, survey of the material generally.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "menagerie",
   "meaning": "a collection of animals kept especially to be shown to the public",
   "example": "He kept his images on the page as a kind of managerie to display to all who visited the site.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "toolchain",
   "meaning": " the set of programming tools that is used to perform a complex software development task or to create a software product. The toolchain may consist of a compiler and linker (which transform the source code into an executable program), libraries, and a debugger. ",
@@ -288,32 +328,32 @@ module.exports = [ {
   "word": "elegiac",
   "meaning": "mourning or expressing sorrow for that which is irrecoverably past",
   "example": "I have no time for your elegiac whining of your lost innocence",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "arcana",
   "meaning": "deep secret, mystery. The specialized details unknown by others.",
   "example": "Coding appears to us all as a welter of arcana--opaque to the uninitiated, like the spells of the magi.",
-  "tag": ["gre", "web"]
+  "tag": ["vocab", "web"]
 }, {
   "word": "derecho",
   "meaning": "widespread, long-lived, straight-line wind storm that is associated with a land-based, fast-moving group of severe thunderstorms.",
   "example": "Confidence and belief his own cause served as a bulwark against the derecho of doubters and those who sought to malign him.",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "perfidious",
   "meaning": "deceitful and untrustworthy, the deliberate breaking of faith; betrayal of trust; treachery",
   "example": "The lawyers' deliberate deceit of their clients and the subsequent profit from their demise belies their perfidious intent",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "belie",
   "meaning": "to show (something) to be false or wrong",
   "example": "The suspect's body language spoke louder than than any of his words to belie the fact that he was, indeed, lying",
-  "tag": ["gre"]
+  "tag": ["vocab"]
 }, {
   "word": "Bounded Rationality",
   "meaning": "Bounded rationality is the idea that when individuals make decisions, their rationality is limited by the available information, the tractability of the decision problem, the cognitive limitations of their minds, and the time available to make the decision.",
   "example": "As a boundedly rational user of the this software, often I don't use it in the most efficient way.",
-  "tag": ["gre", "web", "CS"]
+  "tag": ["vocab", "web", "CS"]
 }, {
   "word": "transpile",
   "meaning": "A source-to-source compiler, transcompiler or transpiler is a type of compiler that takes the source code of a program written in one programming language as its input and produces the equivalent source code in another programming language.",
@@ -378,7 +418,7 @@ module.exports = [ {
   "word": "roue",
   "meaning": "a debauched man, especially an elderly one.",
   "example": "As a roue he spent most of his money at the casinos with a prostitute on his arm and a drink in his hand.",
-  "tag": ["GRE", ""]
+  "tag": ["vocab", ""]
 }, {
   "word": "Temporal Dependency",
   "meaning": "When one thing depends upon another thing finishing before this thing can go",
@@ -408,7 +448,7 @@ module.exports = [ {
   "word": "Brio",
   "meaning": "vigor or vivacity of style or performance.",
   "example": "",
-  "tag": ["GRE", ""]
+  "tag": ["vocab", ""]
 }, {
   "word": "Imbroglio",
   "meaning": "an extremely confused, complicated, or embarrassing situation.",
@@ -433,22 +473,22 @@ module.exports = [ {
   "word": "sheepish",
   "meaning": "(of a person or expression) showing embarrassment from shame or a lack of self-confidence.",
   "example": "He gave me a sheepish grin.",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "obloquy",
   "meaning": "strong public criticism or verbal abuse.",
   "example": "He endured years of contempt and obloquy",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "sang froid",
   "meaning": "composure or coolness, sometimes excessive, as shown in danger or under trying circumstances.",
   "example": "He demonstrated a surprising amount of sang froid despite the disastrous economic circumstances is family found itself.",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "Poe's Law",
   "meaning": "without a clear indicator of the author's intent, parodies of extreme views will be mistaken by some readers or viewers as sincere expressions of the parodied views",
   "example": "I told her she was 'pretty smart for a girl' and she took offense.",
-  "tag": ["web", "GRE"]
+  "tag": ["web", "vocab"]
 }, {
   "word": "Godwin's Law",
   "meaning": "As adiscussion grows longer, the probability of a comparison involving Nazis or Hitler approaches 1. Related to 'reductio ad Hitlerum' stating that 'if the Nazis liked X and you like X, then you are a Nazi.' (vegetarianism/atheism/narrow mustaches)",
@@ -503,7 +543,7 @@ module.exports = [ {
   "word": "Brackish",
   "meaning": "Unpleasant, distasteful",
   "example": "His brackish manner doesn't help him in the polls.",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Variadic Function",
   "meaning": "",
@@ -513,7 +553,7 @@ module.exports = [ {
   "word": "Hallow",
   "meaning": "To honor as holy, to make holy",
   "example": "hallowed be thy name",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Kaizen",
   "meaning": "Kaizen is used to focus on continuous small improvements. In this model, operators mostly look for small ideas which, if possible, can be implemented on the same day. Both worker and supervisor are invensted in the improvement in the product.",
@@ -523,12 +563,12 @@ module.exports = [ {
   "word": "insouciance",
   "meaning": "Showing a casual lack of concern.",
   "example": "",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Intellectualize",
   "meaning": "give an intellectual character to. --Psych: to remove yourself emotionally from an unconsciously painful issue by discussing and reasoning in the guise of addressing the issue.",
   "example": "",
-  "tag": ["GRE", ""]
+  "tag": ["vocab", ""]
 }, {
   "word": "Eager Evaluation",
   "meaning": "In computer programming, eager evaluation or greedy evaluation is the evaluation strategy used by most traditional programming languages. In eager evaluation, an expression is evaluated as soon as it is bound to a variable. The alternative to eager evaluation is lazy evaluation, where expressions are only evaluated when evaluating a dependent expression. Imperative programming languages, where the order of execution is implicitly defined by the structure of the source code, almost always use eager evaluation. One advantage of eager evaluation is that it eliminates the need to track and schedule the evaluation of expressions. It also allows the programmer to dictate the order of execution, making it easier to determine when sub-expressions (including functions) within the expression will be evaluated, as these sub-expressions may have side-effects that will affect the evaluation of other expressions.",
@@ -548,7 +588,7 @@ module.exports = [ {
   "word": "Fabulate",
   "meaning": "relate (an event or events) as a fable or story. To relate untrue or invented stories.",
   "example": "",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "publish subscribe pattern (or 'pub-sub')",
   "meaning": "In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers, but instead characterize published messages into classes without knowledge of which subscribers, if any, there may be. Similarly, subscribers express interest in one or more classes and only receive messages that are of interest, without knowledge of which publishers, if any, there are.",
@@ -588,7 +628,7 @@ module.exports = [ {
   "word": "dispositive",
   "meaning": "relating to or bringing about the settlement of an issue or the disposition of property.",
   "example": "This evidence is dispositive. There should be no question as to the existence of UFOs.",
-  "tag": ["GRE", ""]
+  "tag": ["vocab", ""]
 }, {
   "word": "TTL Time-to-live",
   "meaning": "Time to live (TTL) or hop limit is a mechanism that limits the lifespan or lifetime of data in a computer or network. TTL may be implemented as a counter or timestamp attached to or embedded in the data. Once the prescribed event count or timespan has elapsed, data is discarded. In computer networking, TTL prevents a data packet from circulating indefinitely. In computing applications, TTL is used to improve performance of caching or to improve privacy.",
@@ -613,12 +653,12 @@ module.exports = [ {
   "word": "Shambolic",
   "meaning": "chaotic, disorganized, or mismanaged.",
   "example": "",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Filigree",
   "meaning": "anything very delicate or fanciful or ornamental",
   "example": "",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Stochastic",
   "meaning": "randomly determined; having a random probability distribution or pattern that may be analyzed statistically but may not be predicted precisely.",
@@ -668,7 +708,7 @@ module.exports = [ {
   "word": "firmament",
   "meaning": "the heavens or the sky--a sphere or world viewed as a collection of people.",
   "example": "He is one of the great stars in the American golfing firmament",
-  "tag": [ "GRE"]
+  "tag": [ "vocab"]
 }, {
   "word": "Eidolon",
   "meaning": "Apparition.  apparition, phantom, ghost..a spirit-image of a living or dead person ",
@@ -708,7 +748,7 @@ module.exports = [ {
   "word": "Limn v.",
   "meaning": "(transitive verb) To draw or paint on a surface The artist limned a portrait. 2 to outline in clear sharp detail :  delineate",
   "example": "The man was limned by the streetlight",
-  "tag": ["tag", "GRE"]
+  "tag": ["tag", "vocab"]
 }, {
   "word": "trundle",
   "meaning": "The motion or noise of rolling.",
@@ -723,12 +763,12 @@ module.exports = [ {
   "word": "Quantum",
   "meaning": "A quantity or amount. A specified portion. Something that can be counted or measured.",
   "example": "Example",
-  "tag": ["tag", "GRE"]
+  "tag": ["tag", "vocab"]
 }, {
   "word": "Jaundiced",
   "meaning": "adjective: a jaundiced view of the world: bitter, resentful, cynical, soured, disenchanted, disillusioned, disappointed, pessimistic, skeptical, distrustful, suspicious",
   "example": "She looked with a jaundiced eye on every relationship after her divorce",
-  "tag": ["tag", "GRE"]
+  "tag": ["tag", "vocab"]
 }, {
   "word": "Gap analysis",
   "meaning": "In management literature, gap analysis involves the comparison of actual performance with potential or desired performance. If an organization does not make the best use of current resources, or forgoes investment in capital or technology, it may produce or perform below its potential. This concept is similar to an economy's being below the production possibilities frontier.",
@@ -738,7 +778,7 @@ module.exports = [ {
   "word": "Standard Deviation",
   "meaning": "Standard deviation is a number used to tell how measurements for a group are spread out from the average (mean), or expected value.",
   "example": "A low standard deviation means that most of the numbers are very close to the average. A high standard deviation means that the numbers are spread out",
-  "tag": ["GRE", "CS"]
+  "tag": ["vocab", "CS"]
 }, {
   "word": "Suborn",
   "meaning": "bribe or otherwise induce (someone) to commit an unlawful act such as perjury.",
@@ -758,12 +798,12 @@ module.exports = [ {
   "word": "Parochial",
   "meaning": "having a limited or narrow outlook or scope.",
   "example": "But what was once a parochial amusement is now a national and global peril.",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "Louche",
   "meaning": "('loosh')adjective: shifty or disreputable",
   "example": "Trump acquired a kind of louch glamour",
-  "tag": ["GRE"]
+  "tag": ["vocab"]
 }, {
   "word": "abcissa",
   "meaning": "(in a system of coordinates) the x -coordinate, the distance from a point to the vertical or y -axis measured parallel to the horizontal or x -axis.",
@@ -783,5 +823,5 @@ module.exports = [ {
   "word": "stanning",
   "meaning": "The act or behavior of a Fan + Stalker, Obsessed fanboy",
   "example": "All the attendees of Google I/O were stanning the Pixel 2.0",
-  "tag": ["GRE", "Slang"]
+  "tag": ["vocab", "Slang"]
 },];
