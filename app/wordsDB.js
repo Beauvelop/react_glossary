@@ -15,6 +15,11 @@ module.exports = [ {
   "example": "The judge found the evidentiary support for that argument rather attenuated.",
   "tag": ["vocab"]
 },{
+  "word": "stochastic",
+  "meaning": "Randomly determined. Having a random probablity distribution or pattern that may be analysed statistically but may not be predicted precisely.",
+  "example": "Levels of user delight is a thorny, stochastic phenomenon. It both frustrates efforts to measure it and to accurately predict it in the visitors to a given website.",
+  "tag": ["vocab"]
+},{
   "word": "confabulated",
   "meaning": "A term of psychology characterizing a distorted or fabricated memory produced without the intent to deceive.",
   "example": "While the court relied on his testimony, forensic evidence produced during the trail revealed how confabulated his testimony was.",
