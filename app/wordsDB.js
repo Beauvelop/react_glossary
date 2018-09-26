@@ -65,9 +65,9 @@ module.exports = [ {
   "example": "She read some speech full of florid, mawkish prose gushing about flowers and all that blooms in Spring.",
   "tag": ["vocab"]
 }, {
-  "word": "isomorphic code",
-  "meaning": "definition",
-  "example": "inASentence",
+  "word": "isomorphism",
+  "meaning": "This feature of React exploits the power of being able to write code that is rendered by both server and browser. This results in better indexing, more maintainable code and faster load times.",
+  "example": "Isomorphic code enables the first page load will be lightning fast since the rendering happened on the server with later partial DOM updates happen on the browser.",
   "tag": ["CS"]
 }, {
   "word": "Dirty Checking",
